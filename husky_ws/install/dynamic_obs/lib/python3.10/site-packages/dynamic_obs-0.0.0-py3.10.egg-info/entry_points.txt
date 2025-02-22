@@ -1,0 +1,3 @@
+[console_scripts]
+dynamic_obstacle = dynamic_obs.dynamic_obstacle:main
+

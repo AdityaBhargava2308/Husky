@@ -1,0 +1,22 @@
+[0.697s] Invoking command in '/home/ur5/husky_ws/src/dynamic_obs': PYTHONPATH=/home/ur5/husky_ws/build/dynamic_obs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obs build --build-base /home/ur5/husky_ws/build/dynamic_obs/build install --record /home/ur5/husky_ws/build/dynamic_obs/install.log --single-version-externally-managed install_data
+[0.940s] running egg_info
+[0.940s] writing ../../build/dynamic_obs/dynamic_obs.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../build/dynamic_obs/dynamic_obs.egg-info/dependency_links.txt
+[0.941s] writing entry points to ../../build/dynamic_obs/dynamic_obs.egg-info/entry_points.txt
+[0.941s] writing requirements to ../../build/dynamic_obs/dynamic_obs.egg-info/requires.txt
+[0.941s] writing top-level names to ../../build/dynamic_obs/dynamic_obs.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/dynamic_obs/dynamic_obs.egg-info/SOURCES.txt'
+[0.942s] adding license file 'LICENSE'
+[0.943s] writing manifest file '../../build/dynamic_obs/dynamic_obs.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.943s] running install
+[0.943s] running install_lib
+[0.944s] running install_data
+[0.944s] running install_egg_info
+[0.946s] removing '/home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs-0.0.0-py3.10.egg-info' (and everything under it)
+[0.946s] Copying ../../build/dynamic_obs/dynamic_obs.egg-info to /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs-0.0.0-py3.10.egg-info
+[0.947s] running install_scripts
+[0.965s] Installing dynamic_obstacle script to /home/ur5/husky_ws/install/dynamic_obs/lib/dynamic_obs
+[0.965s] writing list of installed files to '/home/ur5/husky_ws/build/dynamic_obs/install.log'
+[0.981s] Invoked command in '/home/ur5/husky_ws/src/dynamic_obs' returned '0': PYTHONPATH=/home/ur5/husky_ws/build/dynamic_obs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obs build --build-base /home/ur5/husky_ws/build/dynamic_obs/build install --record /home/ur5/husky_ws/build/dynamic_obs/install.log --single-version-externally-managed install_data

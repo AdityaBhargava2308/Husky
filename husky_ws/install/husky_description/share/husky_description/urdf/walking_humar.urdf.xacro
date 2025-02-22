@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="walking_human">
+  
+  <!-- Actor Definition -->
+  <xacro:macro name="walking_human">
+    <actor name="walking_human">
+      <pose>0 0 0 0 0 0</pose>
+      <skin>
+        <filename>model://human_walking/meshes/walking.dae</filename>
+      </skin>
+      <script>
+        <trajectory id="0" type="walk">
+          <waypoint>
+            <time>0</time>
+            <pose>0 0 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>5</time>
+            <pose>5 0 0 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
+  </xacro:macro>
+  
+  <!-- Instantiate the Human Actor -->
+  <xacro:walking_human/>
+</robot>

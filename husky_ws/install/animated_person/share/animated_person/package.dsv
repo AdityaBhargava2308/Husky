@@ -1,0 +1,8 @@
+source;share/animated_person/hook/cmake_prefix_path.ps1
+source;share/animated_person/hook/cmake_prefix_path.dsv
+source;share/animated_person/hook/cmake_prefix_path.sh
+source;share/animated_person/local_setup.bash
+source;share/animated_person/local_setup.dsv
+source;share/animated_person/local_setup.ps1
+source;share/animated_person/local_setup.sh
+source;share/animated_person/local_setup.zsh

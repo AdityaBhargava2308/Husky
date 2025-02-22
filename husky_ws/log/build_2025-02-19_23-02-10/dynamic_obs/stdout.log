@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/dynamic_obs/dynamic_obs.egg-info
+writing ../../build/dynamic_obs/dynamic_obs.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamic_obs/dynamic_obs.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamic_obs/dynamic_obs.egg-info/entry_points.txt
+writing requirements to ../../build/dynamic_obs/dynamic_obs.egg-info/requires.txt
+writing top-level names to ../../build/dynamic_obs/dynamic_obs.egg-info/top_level.txt
+writing manifest file '../../build/dynamic_obs/dynamic_obs.egg-info/SOURCES.txt'
+reading manifest file '../../build/dynamic_obs/dynamic_obs.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/dynamic_obs/dynamic_obs.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ur5/husky_ws/build/dynamic_obs/build
+creating /home/ur5/husky_ws/build/dynamic_obs/build/lib
+creating /home/ur5/husky_ws/build/dynamic_obs/build/lib/dynamic_obs
+copying dynamic_obs/__init__.py -> /home/ur5/husky_ws/build/dynamic_obs/build/lib/dynamic_obs
+copying dynamic_obs/dynamic_obstacle.py -> /home/ur5/husky_ws/build/dynamic_obs/build/lib/dynamic_obs
+running install
+running install_lib
+creating /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs
+copying /home/ur5/husky_ws/build/dynamic_obs/build/lib/dynamic_obs/__init__.py -> /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs
+copying /home/ur5/husky_ws/build/dynamic_obs/build/lib/dynamic_obs/dynamic_obstacle.py -> /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs
+byte-compiling /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs/dynamic_obstacle.py to dynamic_obstacle.cpython-310.pyc
+running install_data
+creating /home/ur5/husky_ws/install/dynamic_obs/share/ament_index
+creating /home/ur5/husky_ws/install/dynamic_obs/share/ament_index/resource_index
+creating /home/ur5/husky_ws/install/dynamic_obs/share/ament_index/resource_index/packages
+copying resource/dynamic_obs -> /home/ur5/husky_ws/install/dynamic_obs/share/ament_index/resource_index/packages
+copying package.xml -> /home/ur5/husky_ws/install/dynamic_obs/share/dynamic_obs
+running install_egg_info
+Copying ../../build/dynamic_obs/dynamic_obs.egg-info to /home/ur5/husky_ws/install/dynamic_obs/lib/python3.10/site-packages/dynamic_obs-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamic_obstacle script to /home/ur5/husky_ws/install/dynamic_obs/lib/dynamic_obs
+writing list of installed files to '/home/ur5/husky_ws/build/dynamic_obs/install.log'

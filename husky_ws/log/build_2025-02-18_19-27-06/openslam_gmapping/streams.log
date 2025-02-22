@@ -1,0 +1,120 @@
+[0.020s] Invoking command in '/home/ur5/husky_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ur5/rg2_ws/install/gripper_control:/home/ur5/ur5_ws/install/solution:/home/ur5/ur5_ws/install/projectur5:/home/ur5/ur5_ws/install/projectUR5:/home/ur5/ur5_ws/install/my_package:/home/ur5/ur5_ws/install/kinematics:/home/ur5/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/ur5/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/ur5/workspace/ros2_kortex_ws/install/ros2controlcli:/home/ur5/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes /usr/bin/cmake /home/ur5/husky_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/ur5/husky_ws/install/openslam_gmapping
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.424s] -- Detecting CXX compile features
+[0.424s] -- Detecting CXX compile features - done
+[0.442s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.640s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.925s] -- Configuring done
+[0.937s] -- Generating done
+[0.941s] -- Build files have been written to: /home/ur5/husky_ws/build/openslam_gmapping
+[0.944s] Invoked command in '/home/ur5/husky_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ur5/rg2_ws/install/gripper_control:/home/ur5/ur5_ws/install/solution:/home/ur5/ur5_ws/install/projectur5:/home/ur5/ur5_ws/install/projectUR5:/home/ur5/ur5_ws/install/my_package:/home/ur5/ur5_ws/install/kinematics:/home/ur5/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/ur5/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/ur5/workspace/ros2_kortex_ws/install/ros2controlcli:/home/ur5/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes /usr/bin/cmake /home/ur5/husky_ws/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/ur5/husky_ws/install/openslam_gmapping
+[0.946s] Invoking command in '/home/ur5/husky_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ur5/rg2_ws/install/gripper_control:/home/ur5/ur5_ws/install/solution:/home/ur5/ur5_ws/install/projectur5:/home/ur5/ur5_ws/install/projectUR5:/home/ur5/ur5_ws/install/my_package:/home/ur5/ur5_ws/install/kinematics:/home/ur5/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/ur5/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/ur5/workspace/ros2_kortex_ws/install/ros2controlcli:/home/ur5/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes /usr/bin/cmake --build /home/ur5/husky_ws/build/openslam_gmapping -- -j12 -l12
+[1.015s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o[0m
+[1.015s] [ 18%] [32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o[0m
+[1.015s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o[0m
+[1.015s] [ 18%] [32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o[0m
+[1.218s] [ 22%] [32m[1mLinking CXX static library libsensor_base.a[0m
+[1.283s] [ 27%] [32m[1mLinking CXX static library libutils.a[0m
+[1.294s] [ 27%] Built target sensor_base
+[1.324s] [ 45%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o[0m
+[1.324s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o[0m
+[1.324s] [ 45%] [32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o[0m
+[1.324s] [ 45%] [32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o[0m
+[1.356s] [ 45%] Built target utils
+[1.586s] [ 50%] [32m[1mLinking CXX static library libsensor_odometry.a[0m
+[1.661s] [ 50%] Built target sensor_odometry
+[1.692s] [ 54%] [32m[1mLinking CXX static library libsensor_range.a[0m
+[1.763s] [ 54%] Built target sensor_range
+[1.793s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o[0m
+[1.793s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o[0m
+[1.793s] [ 72%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o[0m
+[1.793s] [ 68%] [32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o[0m
+[2.798s] [ 77%] [32m[1mLinking CXX static library libscanmatcher.a[0m
+[2.871s] [ 77%] Built target scanmatcher
+[2.903s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o[0m
+[2.904s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o[0m
+[2.904s] [ 90%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o[0m
+[2.904s] [ 95%] [32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o[0m
+[4.068s] [100%] [32m[1mLinking CXX static library libgridfastslam.a[0m
+[4.142s] [100%] Built target gridfastslam
+[4.156s] Invoked command in '/home/ur5/husky_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ur5/rg2_ws/install/gripper_control:/home/ur5/ur5_ws/install/solution:/home/ur5/ur5_ws/install/projectur5:/home/ur5/ur5_ws/install/projectUR5:/home/ur5/ur5_ws/install/my_package:/home/ur5/ur5_ws/install/kinematics:/home/ur5/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/ur5/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/ur5/workspace/ros2_kortex_ws/install/ros2controlcli:/home/ur5/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes /usr/bin/cmake --build /home/ur5/husky_ws/build/openslam_gmapping -- -j12 -l12
+[4.157s] Invoking command in '/home/ur5/husky_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ur5/rg2_ws/install/gripper_control:/home/ur5/ur5_ws/install/solution:/home/ur5/ur5_ws/install/projectur5:/home/ur5/ur5_ws/install/projectUR5:/home/ur5/ur5_ws/install/my_package:/home/ur5/ur5_ws/install/kinematics:/home/ur5/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/ur5/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/ur5/workspace/ros2_kortex_ws/install/ros2controlcli:/home/ur5/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes /usr/bin/cmake --install /home/ur5/husky_ws/build/openslam_gmapping
+[4.168s] -- Install configuration: ""
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include/
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/grid
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[4.169s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[4.170s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/particlefilter
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/log
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[4.171s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[4.172s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[4.173s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[4.174s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.174s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[4.174s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[4.174s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[4.174s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[4.175s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[4.175s] -- Up-to-date: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[4.175s] -- Up-to-date: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[4.175s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/lib/libsensor_base.a
+[4.175s] -- Up-to-date: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[4.175s] -- Up-to-date: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[4.175s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[4.176s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/lib/libsensor_range.a
+[4.176s] -- Installing: /home/ur5/husky_ws/install/openslam_gmapping/lib/libutils.a
+[4.176s] -- Up-to-date: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[4.176s] -- Up-to-date: /home/ur5/husky_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[4.178s] Invoked command in '/home/ur5/husky_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ur5/rg2_ws/install/gripper_control:/home/ur5/ur5_ws/install/solution:/home/ur5/ur5_ws/install/projectur5:/home/ur5/ur5_ws/install/projectUR5:/home/ur5/ur5_ws/install/my_package:/home/ur5/ur5_ws/install/kinematics:/home/ur5/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/ur5/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/ur5/workspace/ros2_kortex_ws/install/ros2controlcli:/home/ur5/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes /usr/bin/cmake --install /home/ur5/husky_ws/build/openslam_gmapping

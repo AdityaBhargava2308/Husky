@@ -1,0 +1,4 @@
+source;share/animated_person/local_setup.bash
+source;share/animated_person/local_setup.dsv
+source;share/animated_person/local_setup.sh
+source;share/animated_person/local_setup.zsh

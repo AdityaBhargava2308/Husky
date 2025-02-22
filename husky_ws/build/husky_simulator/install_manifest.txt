@@ -1,0 +1,15 @@
+/home/ur5/husky_ws/install/husky_simulator/share/ament_index/resource_index/package_run_dependencies/husky_simulator
+/home/ur5/husky_ws/install/husky_simulator/share/ament_index/resource_index/parent_prefix_path/husky_simulator
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/environment/ament_prefix_path.sh
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/environment/ament_prefix_path.dsv
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/environment/path.sh
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/environment/path.dsv
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/local_setup.bash
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/local_setup.sh
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/local_setup.zsh
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/local_setup.dsv
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/package.dsv
+/home/ur5/husky_ws/install/husky_simulator/share/ament_index/resource_index/packages/husky_simulator
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/cmake/husky_simulatorConfig.cmake
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/cmake/husky_simulatorConfig-version.cmake
+/home/ur5/husky_ws/install/husky_simulator/share/husky_simulator/package.xml
